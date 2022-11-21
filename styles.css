@@ -1,0 +1,62 @@
+/* Removing Default Spaces on All Elements */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Styling Body */
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #000046, #1cb5e0);
+}
+
+.page-header {
+  width: 210px;
+  position: relative;
+  font-family: karla, family-name|generic-family|initial|inherit;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* Styling Main Container */
+.main-container {
+  width: 210px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* Styling Viewer */
+.viewer {
+  font-size: 24px;
+  padding: 5px;
+  width: 100%;
+  color: #ffffff;
+  margin-left: 2px;
+  border: 0px;
+  background-color: rgba(42, 50, 113, 0.28);
+}
+
+/* Styling Buttons in Global */
+.button {
+  width: 50px;
+  height: 50px;
+  margin: 5px 5px 0px 0px;
+  font-size: 24px;
+  cursor: pointer;
+  background-color: rgba(42, 50, 113, 0.28);
+  color: #ffffff;
+  border: 0px;
+}
+
+/* Styling Zero Button */
+.zero-btn {
+  width: calc(100% - 5px);
+}
+
+/* Styling Equal Button */
+.equal {
+  height: 105px;
+}
